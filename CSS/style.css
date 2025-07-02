@@ -133,6 +133,7 @@ body{
     width: 180px;
     height: 36px;
     line-height: normal;
+    color: var(--primary);
 }
 
 .navbar .search-form input::placeholder {
