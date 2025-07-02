@@ -4,14 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitmate</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/jpeg" href="img/favicon.jpeg">
+    
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
-<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="/CSS/style.css">
-    <link rel="stylesheet" href="/JS/script.js">
+
+    <!-- tailwind -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- feather icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    
+    <!-- css --> 
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- js -->
+    <link rel="stylesheet" href="JS/script.js">
 </head>
 <body>
 
-    <h1>Hellow Duniaaa!!!</h1>
+<!-- Navbar -->
+    <nav class="navbar" x-data>
+        <a href="#" class="navbar-logo">Fit<span>mate</span> </a>
+
+        <div class="navbar-nav">
+            <div class="dropdown">
+                <a href="#" class="dropdown-toggle">Categories </a>
+            <div class="dropdown-menu">
+                <a href="Pages/Categories/workout.html">Workout</a>
+                <a href="Pages/Categories/aerobik.html">Aerobik</a>
+                <a href="Pages/Categories/yoga.html">Yoga</a>
+            </div>
+            </div>
+
+            <a href="Pages/forum.html">Forum</a>
+            <a href="Pages/about.html">About Us</a>
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="Tips&Trick Angkat Beban">
+            <button><i data-feather="search"></i></button>
+        </div>
+    </nav>
+<!-- Navbar -->
+    
+
+<!-- Footer -->
+
+<!-- Footer -->
 
 </body>
 </html>
+
+<!-- Feather Icons -->
+    <script>
+    feather.replace();
+    </script>
