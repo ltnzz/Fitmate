@@ -26,4 +26,3 @@ Fitmate hadir untuk menjawab kebutuhan masyarakat akan bimbingan kebugaran yang 
 ```bash
 # Clone repository
 git clone https://github.com/ltnzz/Fitmate
-npm run dev
