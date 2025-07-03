@@ -18,7 +18,6 @@ Fitmate hadir untuk menjawab kebutuhan masyarakat akan bimbingan kebugaran yang 
 
 ## 📦 Teknologi yang Digunakan
 - HTML, CSS, JS – Frontend
-- PostgreSQL – Database
 
 ---
 
