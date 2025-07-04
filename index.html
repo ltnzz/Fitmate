@@ -20,38 +20,112 @@
 
     <!-- js -->
     <link rel="stylesheet" href="JS/script.js">
+
+     <!-- FlatIcon -->
+      <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-brands/css/uicons-brands.css'>
 </head>
 <body>
 
 <!-- Navbar -->
-    <nav class="navbar" x-data>
-        <a href="#" class="navbar-logo">Fit<span>mate</span> </a>
-
-        <div class="navbar-nav">
-            <div class="dropdown">
-                <a href="#" class="dropdown-toggle">Categories </a>
-            <div class="dropdown-menu">
-                <a href="Pages/Categories/workout.html">Workout</a>
-                <a href="Pages/Categories/aerobik.html">Aerobik</a>
-                <a href="Pages/Categories/yoga.html">Yoga</a>
-            </div>
-            </div>
-
-            <a href="Pages/forum.html">Forum</a>
-            <a href="Pages/about.html">About Us</a>
-        </div>
-
-        <div class="search-form">
-            <input type="search" id="search-box" placeholder="Tips&Trick Angkat Beban">
-            <button><i data-feather="search"></i></button>
-        </div>
-    </nav>
-<!-- Navbar -->
     
+    <!-- Navbar Content -->
 
-<!-- Footer -->
+    <!-- Main Content -->
+<main>
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h1>Welcome to Fitmate!</h1> <p>Your ultimate partner for a healthier, stronger you. Discover workouts, connect in forums, and achieve your fitness goals.</p>
+                <button class="call-to-action-button">Join Our Community</button>
+            </div>
+        </section>
 
-<!-- Footer -->
+        <section id="about" class="about-section">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <article>
+                <h3>Our Mission</h3>
+                <p>To deliver innovative solutions...</p>
+            </article>
+        </section>
+
+        <section id="services" class="services-section">
+            <h2>Our Services</h2>
+            <div class="service-cards">
+                <article class="service-card">
+                    <h3>Personalized Workouts</h3>
+                    <p>Custom training plans tailored to your goals and fitness level.</p>
+                </article>
+                <article class="service-card">
+                    <h3>Expert Advice</h3>
+                    <p>Guidance from certified trainers and nutritionists.</p>
+                </article>
+                 <article class="service-card">
+                    <h3>Community Support</h3>
+                    <p>Connect with a thriving community for motivation and tips.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Contact Us</h2>
+            <p>Have questions? Reach out to us!</p>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+            <aside>
+                <h3>Our Location</h3>
+                <p>Jl. Kesehatan No. 10, Ciomas, Bogor, Jawa Barat</p>
+            </aside>
+        </section>
+    </main>
+    <!-- Main Content -->
+
+    <!-- Footer Content -->
+<footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-section footer-brand">
+                <a href="#"><img src="" alt="Fitmate Logo" class="footer-logo"></a> <p class="footer-tagline">Fitmate is dedicated to empowering your fitness journey with comprehensive resources and a supportive community.</p>
+            </div>
+
+            <div class="footer-section footer-links">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section footer-social">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" aria-label="WhatsApp"><i class="fi fi-brands-whatsapp"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fi fi-brands-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fi fi-brands-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fi fi-brands-linkedin"></i></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="current-year"></span> Fitmate. All rights reserved.</p>
+        </div>
+    </footer>
+<!-- Footer Content -->
+
+    <script src="JS/script.js"></script>
 
 </body>
 </html>
